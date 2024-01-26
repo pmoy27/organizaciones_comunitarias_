@@ -4,6 +4,6 @@ from web import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.inicio, name="index"),
+        path('', views.inicio, name="index"),
     path('login/', views.login, name="login"),
 ]
